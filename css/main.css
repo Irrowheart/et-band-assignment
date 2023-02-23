@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.top-info {
+.top-wrap {
    display: flex;
    align-items: baseline;
    background-color: black;
@@ -16,17 +16,18 @@
    padding-inline: 50pt;
    top: 0;
    position: sticky;
-   
+   z-index: 1;
 }
 
-
-.top-info nav   {
-    color: antiquewhite;
-    
-}
  
-.header-icon{
-    display: flex;
-    top: 0;
-    justify-content: center;
+.header-bg{
+    min-height: 900px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Title-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-nav {
+    color: antiquewhite;
 }
