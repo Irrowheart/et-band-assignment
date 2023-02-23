@@ -1,1 +1,32 @@
 /* Place CSS styles here */
+
+
+
+.val-row-3-tiles {
+    display: flex;
+    justify-content: center;
+}
+
+.top-info {
+   display: flex;
+   align-items: baseline;
+   background-color: black;
+   opacity: .5;
+   justify-content:space-between;
+   padding-inline: 50pt;
+   top: 0;
+   position: sticky;
+   
+}
+
+
+.top-info nav   {
+    color: antiquewhite;
+    
+}
+ 
+.header-icon{
+    display: flex;
+    top: 0;
+    justify-content: center;
+}
