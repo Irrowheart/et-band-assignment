@@ -65,11 +65,8 @@
     background-color: antiquewhite;
     display: flex;
     gap: 50px;
-    padding: 50px;
-    border: 1px solid #888;
-    border-radius: 12px;
-    
-
+    align-items: center;
+   
 }
 
 .nav-event {
@@ -93,9 +90,73 @@
 .nav-contact img {
     height: 50px;
     width: 50px;
+    background-color: saddlebrown;
+    padding: 3px;
+    border-radius: 10px;
+   
 }
 
 footer {
     color: antiquewhite;
     bottom: 0;
+ 
+}
+
+.nav-event-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 12px;
+    padding: 12px 24px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 50px;
+    align-items: baseline;
+    
+}
+
+.nav-event-page img {
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.navigation-wrapper-event {
+    min-height: 606px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Swamp-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.About-band-img{
+    justify-content: center;
+    display: flex;
+}
+
+.About-band-text{
+    color: saddlebrown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.nav-two-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   
 }
