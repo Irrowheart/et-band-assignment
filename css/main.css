@@ -13,6 +13,19 @@
    z-index: 1;
 }
 
+.top-wrap-img {
+    height: 100px;
+    width: auto;
+}
+
+.top-wrap-nav a:link {
+    color: antiquewhite; text-decoration: none; font-size: 25px;
+}
+
+.top-wrap-nav a:hover {
+    text-decoration: underline;
+}
+
  
 .header-bg {
     min-height: 900px;
@@ -38,13 +51,7 @@
     align-items: center;
 }
 
-.top-wrap a:link {
-    color: antiquewhite; text-decoration: none; font-size: 25px;
-}
 
-.top-wrap a:hover {
-    text-decoration: underline;
-}
 
 .navigation-wrapper {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Swamp-bg.jpg);
