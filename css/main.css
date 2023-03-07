@@ -14,13 +14,11 @@
 }
 
 .top-wrap-img {
-    height: 100px;
-    width: auto;
+    height: auto;
+    min-width: fit-content;
+    top: 0;
 }
 
-.top-wrap-nav {
-    color: antiquewhite;
-}
 
 .top-wrap-nav a:link, a:visited {
     color: antiquewhite; text-decoration: none; font-size: 25px;
