@@ -13,6 +13,7 @@
    z-index: 1;
 }
 
+
 .top-wrap-img {
     height: auto;
     min-width: fit-content;
@@ -157,6 +158,7 @@ footer {
 .About-band-img{
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 .About-band-text{
@@ -177,4 +179,8 @@ footer {
     gap: 50px;
     align-items: center;
    
+}
+
+.About-band-text-title {
+    font-size: 35px;
 }
