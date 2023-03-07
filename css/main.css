@@ -18,11 +18,15 @@
     width: auto;
 }
 
-.top-wrap-nav a:link {
+.top-wrap-nav {
+    color: antiquewhite;
+}
+
+.top-wrap-nav a:link, a:visited {
     color: antiquewhite; text-decoration: none; font-size: 25px;
 }
 
-.top-wrap-nav a:hover {
+.top-wrap-nav a:hover, a:active {
     text-decoration: underline;
 }
 
