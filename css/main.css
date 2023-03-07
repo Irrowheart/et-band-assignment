@@ -40,21 +40,27 @@
     justify-content: center;
 }
 
-.header-bg p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: antiquewhite;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
 
 .header-p1 {
     font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: center;
+   
+}
+
+.header-and {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+   
 }
 
 .header-p2 {
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 25;
+    font-size: 35px;
+    color: antiquewhite;
+    
 }
 
 .navigation-wrapper {
