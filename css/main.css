@@ -130,8 +130,29 @@ footer {
     background-color: antiquewhite;
     display: flex;
     gap: 50px;
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
     
+}
+
+.img-align {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    font-size: 25px;
+    
+}
+
+.nav-event-page-p {
+    color: antiquewhite; 
+    font-size: 50px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    top: 0; 
+    left: 0; 
+    position: absolute; 
+    padding: 40px;
 }
 
 .nav-event-page img {
